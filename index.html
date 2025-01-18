@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Umi and Abi Site</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/ananda-black" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/maulysia" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/giftbox.css" />
+    <link rel="stylesheet" href="assets\css\bear.css" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/logo.png" alt="" />
+          <h1 class="sitename">UmiAbi</h1>
+          <span style="font-size: 14pt"><sub>YumaEverything</sub></span>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="birthday.html">Umi 26th Birthday </a></li>
+            <li><a href="#">1st Year Anniversary</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <div class="info d-flex align-items-center">
+          <div class="container">
+            <div
+              class="row justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="height: 50vh !important"
+            >
+              <div class="mt-5 text-center welcomesign">
+                <h1 class="d-flex justify-content-around align-items-end">
+                  Welcome to Umi Birthday
+                  <sub>
+                    <p><em>ft. Harry Potter</em></p></sub
+                  >
+                </h1>
+
+                <a
+                  style="
+                    cursor: url(assets/img/harry_potter_photos/wand.png) 0 0,
+                      auto;
+                  "
+                  href="#get-started"
+                  class="btn-get-started"
+                  >Hop in</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="hero-carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <!-- <div class="carousel-item">
+            <img
+              src="assets/img/harry_potter_photos/education-day-scene-fantasy-style-aesthetic (1).jpg"
+              alt=""
+            />
+          </div> -->
+
+          <div class="carousel-item active">
+            <img
+              src="assets/img/harry_potter_photos/education-day-scene-fantasy-style-aesthetic.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="assets/img/harry_potter_photos/international-day-education-scene-with-fantasy-style.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="assets/img/harry_potter_photos/a5a741db-e52e-427b-b5f7-1d0265be9f8f.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="assets/img/harry_potter_photos/glenfinnan-viaduct-scotland-hogwarts-express-harry-potter-1024x684.jpg"
+              alt=""
+            />
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#hero-carousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#hero-carousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- Birthday -->
+      <section
+        id="get-started"
+        class="get-started section dark-background"
+        style="
+          background-image: url(assets/img/harry_potter_photos/bdaylauncher.png);
+          background-size: cover;
+        "
+      >
+        <div class="container" style="border: 1rem solid transparent">
+          <div class="row justify-content-between gy-4">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <div class="content giftbox">
+                <div class="row">
+                  <div class="col-12">
+                    <h1
+                      class="text-center my-3"
+                      style="font-family: Maulysia, serif; font-size: 60pt"
+                    >
+                      <strong>Open the gift</strong>
+                    </h1>
+                  </div>
+                  <div class="col-12 mt-5 d-flex justify-content-center">
+                    <div class="box">
+                      <div class="box-body">
+                        <a href="birthday.html"
+                          ><img
+                            class="img"
+                            src="assets/img/harry_potter_photos/hogwartsletterenvelope.jpeg"
+                        /></a>
+
+                        <div class="box-lid">
+                          <div class="box-bowtie"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- EndBirthday -->
+      <!-- Anniversary -->
+      <section
+        id="get-started"
+        class="get-started section dark-background"
+        style="
+          background-image: url(assets/img/harry_potter_photos/bdaylauncher.png);
+          background-size: cover;
+        "
+      >
+        <div class="container" style="border: 1rem solid transparent">
+          <div class="row justify-content-between gy-4">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <div class="content giftbox">
+                <div class="row">
+                  <div class="col-12">
+                    <h1
+                      class="text-center my-3"
+                      style="font-family: Maulysia, serif; font-size: 60pt"
+                    >
+                      <strong>Open the gift</strong>
+                    </h1>
+                  </div>
+                  <div class="col-12 mt-5 d-flex justify-content-center">
+                    <div class="box">
+                      <div class="box-body">
+                        <a href="birthday.html"
+                          ><img
+                            class="img"
+                            src="assets/img/harry_potter_photos/hogwartsletterenvelope.jpeg"
+                        /></a>
+
+                        <div class="box-lid">
+                          <div class="box-bowtie"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Anniversary -->
+
+      <!-- memorables Section -->
+      <section id="memorables" class="memorables section">
+        <!-- Section Title -->
+        <div
+          class="d-flex flex-wrap justify-content-around section-title"
+          data-aos="fade-up"
+          style="align-items: center"
+        >
+          <img
+            src="https://tenor.com/view/dubu-gif-16690239200102405959.gif"
+            alt=""
+            style="transform: scaleX(-1)"
+          />
+
+          <h2 style="font-family: Ananda, sans-serif">
+            Memorable Umi &amp; Abi's Lines
+          </h2>
+          <img
+            src="https://tenor.com/view/panda-funny-gif-15975182262072417025.gif"
+            alt=""
+          />
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 20
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item" style="background: transparent">
+                    <img
+                      src="assets/img/memorables/memorables-1.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Umi</h3>
+                    <h4>Famous line</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>
+                        <em> I don't think so </em>
+                      </span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End memorable item -->
+
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-2.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Abi</h3>
+                    <h4>Making-up Umi</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Baby naman, naku.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End memorable item -->
+
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-3.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Umi</h3>
+                    <h4>Needs Attention</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>What are you doing?</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End memorable item -->
+
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-4.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Abi</h3>
+                    <h4>
+                      Being silent then pretending to hear everything Umi says
+                    </h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>................... Ohhh i see po</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End memorable item -->
+
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-5.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Umi & Abi</h3>
+                    <h4>Butterflies in Stomach</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span
+                        >Abi: iloveyou yun
+                        <br />
+                        &nbsp; &emsp; Umi: I love you too jom</span
+                      >
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End memorable item -->
+
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-5.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Umi & Abi</h3>
+                    <h4>Done talking to Mother Earth</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span
+                        ><img
+                          src="https://tenor.com/view/gil-cat-dancey-gif-18141936135897027445.gif"
+                          alt=""
+                          style="width: 100px; height: 100px"
+                        />
+                      </span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End memorable item -->
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-5.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Abi</h3>
+                    <h4>Assuring Umi</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>
+                        Eventhough you have big forehead, i love you still
+                      </span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End memorable item -->
+
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-5.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Umi</h3>
+                    <h4>Heartwarming</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span> Happy Birthday Baby ko </span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="memorable-wrap">
+                  <div class="memorable-item">
+                    <img
+                      src="assets/img/memorables/memorables-5.jpg"
+                      class="memorable-img"
+                      alt=""
+                    />
+                    <h3>Abi</h3>
+                    <h4>Mean</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                    </div>
+
+                    <p class="d-flex justify-content-around">
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>
+                        <img
+                          src="assets/img/mock.jpg"
+                          alt=""
+                          style="width: 90px; height: 100px"
+                      /></span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /memorables Section -->
+
+      <!-- Future Projects -->
+      <section id="future-projects" class="future-projects section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <div
+            class="d-flex flex-wrap justify-content-around section-title"
+            data-aos="fade-up"
+            style="align-items: center"
+          >
+            <!-- Dudu -->
+            <img
+              src="https://tenor.com/view/tkthao219-bubududu-panda-gif-21532571.gif"
+              alt=""
+              style="transform: scaleX(-1)"
+            />
+
+            <h2 style="font-family: Ananda, sans-serif">
+              Umi &amp; Abi Future Works
+            </h2>
+            <!-- Bubu -->
+            <img
+              src="https://tenor.com/view/mimibubu-gif-22701436.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-xl-4 col-md-6">
+              <div
+                class="post-item position-relative h-100"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="assets/img/album.png"
+                    class="img-fluid"
+                    alt=""
+                    style="height: 300px; width: 410px"
+                  />
+                  <span class="post-date">In Progress</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">Album</h3>
+
+                  <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-person"></i>
+                      <span class="ps-2">Home</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-folder2"></i>
+                      <span class="ps-2">Album</span>
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <a href="#" class="readmore stretched-link"
+                    ><span>Check</span><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+
+            <div class="col-xl-4 col-md-6">
+              <div
+                class="post-item position-relative h-100"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="https://tenor.com/view/tkthao219-bubududu-panda-gif-21552816.gif"
+                    class=""
+                    alt=""
+                    style="width: 205px; height: 305px"
+                  />
+                  <img
+                    src="https://tenor.com/view/peach-goma-gif-20044568.gif"
+                    class=""
+                    alt=""
+                    style="width: 205px; height: 305px; transform: scaleX(-1)"
+                  />
+                  <span class="post-date">In Progress</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">Blogspot</h3>
+
+                  <div class="meta d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-person"></i>
+                      <span class="ps-2">Home</span>
+                    </div>
+                    <span class="px-3 text-black-50">/</span>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-folder2"></i>
+                      <span class="ps-2">Blogspot</span>
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <a href="#" class="readmore stretched-link"
+                    ><span>Check </span><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="post-item position-relative h-100">
+                <div class="post-img position-relative overflow-hidden">
+                  <img
+                    src="assets/img/hrlogo.png"
+                    class="img-fluid"
+                    alt=""
+                    style="width: 412px; height: 300px"
+                  />
+                  <span class="post-date">In Progress</span>
+                </div>
+
+                <div class="post-content d-flex flex-column">
+                  <h3 class="post-title">Highrise Integration</h3>
+
+                  <hr />
+                  <br />
+
+                  <a href="#" class="readmore stretched-link"
+                    ><span>Check</span><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End post item -->
+          </div>
+        </div>
+      </section>
+      <!--End Future Projects-->
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+      <div class="container copyright text-center footer-top">
+        <h3>All Rights Reserved in Allah's Grace</h3>
+        <div class="credits">Designed by UmiAbi</div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
